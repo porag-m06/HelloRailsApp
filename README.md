@@ -62,6 +62,19 @@ After checking to make sure our Rails project is being served to the browser (ht
 
 ## Rails Naming Convension
 <div align="center">
-  <img src="./railsNamingConvension.png" alt="logo" width="auto"  height="auto" />
+  <img src="./railsNamingConvension.png" alt="rails naming convention img" width="auto"  height="auto" />
   <br/>
 </div>
+
+```
+The default branch has been renamed!
+hello-feature is now named main
+
+If you have a local clone, you can update it by running the following commands.
+
+git branch -m hello-feature main
+git fetch origin
+git branch -u origin/main main
+git remote set-head origin -a
+
+```
